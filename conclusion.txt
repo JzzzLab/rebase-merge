@@ -1,0 +1,11 @@
+// REFERENCE
+// https://www.slideshare.net/WillHuangTW/git-merge-rebase
+git checkout feature/a
+git rebase master
+git checkout master
+git merge feature/a
+
+// REFERENCE
+// https://www.freecodecamp.org/news/how-to-delete-a-git-branch-both-locally-and-remotely/
+git branch -d feature/a
+git push origin --delete feature/a
